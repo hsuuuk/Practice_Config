@@ -19,6 +19,8 @@
 		8FF279862A5CDE2B003B325F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8FF279882A5CDE2C003B325F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FF2798B2A5CDE2C003B325F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8FF279922A5CDE3F003B325F /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		8FF279932A5CDE82003B325F /* Practice-Config-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Practice-Config-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		8FF279782A5CDE2B003B325F = {
 			isa = PBXGroup;
 			children = (
+				8FF279922A5CDE3F003B325F /* Config.xcconfig */,
 				8FF279832A5CDE2B003B325F /* Practice_Config */,
 				8FF279822A5CDE2B003B325F /* Products */,
 			);
@@ -51,6 +54,7 @@
 		8FF279832A5CDE2B003B325F /* Practice_Config */ = {
 			isa = PBXGroup;
 			children = (
+				8FF279932A5CDE82003B325F /* Practice-Config-Info.plist */,
 				8FF279842A5CDE2B003B325F /* Practice_ConfigApp.swift */,
 				8FF279862A5CDE2B003B325F /* ContentView.swift */,
 				8FF279882A5CDE2C003B325F /* Assets.xcassets */,
@@ -147,6 +151,7 @@
 /* Begin XCBuildConfiguration section */
 		8FF2798D2A5CDE2C003B325F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FF279922A5CDE3F003B325F /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -207,6 +212,7 @@
 		};
 		8FF2798E2A5CDE2C003B325F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FF279922A5CDE3F003B325F /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -261,14 +267,17 @@
 		};
 		8FF279902A5CDE2C003B325F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FF279922A5CDE3F003B325F /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Practice_Config/Preview Content\"";
+				DEVELOPMENT_TEAM = 89BLGRU39K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Practice-Config-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -289,14 +298,17 @@
 		};
 		8FF279912A5CDE2C003B325F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FF279922A5CDE3F003B325F /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Practice_Config/Preview Content\"";
+				DEVELOPMENT_TEAM = 89BLGRU39K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Practice-Config-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
